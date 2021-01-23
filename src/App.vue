@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-  @include large-text-bold;
+  @include large-text-bold($purple);
 }
 
 #app {
