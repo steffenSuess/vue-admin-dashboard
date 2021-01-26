@@ -1,10 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import About from "../views/About.vue"
-import SignIn from "../views/SignInFlow/SignIn"
-import Request from "../views/SignInFlow/Request"
-import Recover from "../views/SignInFlow/Recover"
+import Team from "../views/Team.vue";
+import SignIn from "../views/SignInFlow/SignIn";
+import Request from "../views/SignInFlow/Request";
+import Recover from "../views/SignInFlow/Recover";
 
 Vue.use(VueRouter);
 
@@ -15,9 +15,9 @@ const routes = [
     component: Home
   },
   {
-    path: "/about",
-    name: "about",
-    component: About
+    path: "/team",
+    name: "team",
+    component: Team
   },
   {
     path: "/signin",
